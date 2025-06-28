@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="avatar-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8f94fb" />
+      <stop offset="100%" stop-color="#4e54c8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#avatar-gradient)" />
+  
+  <!-- Face -->
+  <circle cx="50" cy="45" r="20" fill="#ffffff" />
+  
+  <!-- Eyes -->
+  <circle cx="43" cy="40" r="3" fill="#333333" />
+  <circle cx="57" cy="40" r="3" fill="#333333" />
+  
+  <!-- Smile -->
+  <path d="M40,50 Q50,58 60,50" stroke="#333333" stroke-width="2" fill="none" />
+  
+  <!-- Hair -->
+  <path d="M30,35 Q35,20 50,20 Q65,20 70,35" fill="#333333" />
+  <path d="M30,35 Q35,25 50,25 Q65,25 70,35" fill="#333333" />
+  
+  <!-- Shoulders -->
+  <path d="M30,75 Q50,85 70,75" fill="#ffffff" />
+  
+  <!-- Initials -->
+  <text x="50" y="95" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">SD</text>
+</svg>

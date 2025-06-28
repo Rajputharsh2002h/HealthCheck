@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCheck Pro - Full Body Health Checkup</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                <a href="#home">
+                    <img src="logo.svg" alt="HealthPlus Logo" width="180">
+                </a>
+            </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="btn-login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="typing">Full Body Health Checkup starting @ ₹349</h1>
+                    <p class="slide-in-left delay-2">Liver function test(LFT), Random Blood Sugar, Complete Blood Count, Urine Routine & Microscopy Extended.</p>
+                    <div class="offer-badge slide-in-left delay-3">
+                        <span class="exclusive pulse">Exclusive Offer</span>
+                        <span class="discount gradient-text">65% Off</span>
+                        <div class="price">
+                            <span class="old-price">₹999</span>
+                            <span class="new-price">₹349</span>
+                        </div>
+                    </div>
+                    <div class="test-count bounce">
+                        <span class="number">58</span>
+                        <span class="text">Tests</span>
+                    </div>
+                    <button class="btn-primary slide-in-left delay-4">Book Now</button>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="hero-image.svg" alt="Health Checkup Illustration" class="floating">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up">
+                    <i class="fas fa-map-marker-alt pulse"></i>
+                    <h3>Across <span class="highlight counter">250</span>+</h3>
+                    <p class="slide-in-bottom delay-1">Cities in India</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-user-md pulse"></i>
+                    <h3>Trusted by <span class="highlight counter">100000</span>+</h3>
+                    <p class="slide-in-bottom delay-1">Doctors</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-flask pulse"></i>
+                    <h3><span class="highlight counter">15000000</span>+</h3>
+                    <p class="slide-in-bottom delay-1">Tests Done Every Month</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-smile pulse"></i>
+                    <h3><span class="highlight counter">7000000</span>+</h3>
+                    <p class="slide-in-bottom delay-1">Satisfied Customers</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-user-nurse pulse"></i>
+                    <h3><span class="highlight counter">2500</span>+</h3>
+                    <p class="slide-in-bottom delay-1">Trained Phlebotomists</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fas fa-building pulse"></i>
+                    <h3><span class="highlight counter">22</span>+</h3>
+                    <p class="slide-in-bottom delay-1">Fully Owned State-of-the-art Lab</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section class="quality">
+        <div class="container">
+            <div class="quality-grid">
+                <div class="quality-item" data-aos="flip-left" data-aos-delay="100">
+                    <i class="fas fa-check-circle shimmer"></i>
+                    <p class="slide-in-right">Stringent Quality Checks at All Times</p>
+                </div>
+                <div class="quality-item" data-aos="flip-left" data-aos-delay="200">
+                    <i class="fas fa-check-circle shimmer"></i>
+                    <p class="slide-in-right">Fully Automated State-of-the-art Labs</p>
+                </div>
+                <div class="quality-item" data-aos="flip-left" data-aos-delay="300">
+                    <i class="fas fa-check-circle shimmer"></i>
+                    <p class="slide-in-right">Latest Machines and Equipment</p>
+                </div>
+                <div class="quality-item" data-aos="flip-left" data-aos-delay="400">
+                    <i class="fas fa-check-circle shimmer"></i>
+                    <p class="slide-in-right">International Quality Compliance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="gradient-text">Our Health Packages</h2>
+                <p class="slide-in-bottom">Choose from our wide range of comprehensive health checkup packages</p>
+            </div>
+            <div class="packages-grid">
+                <div class="package-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="package-badge pulse">Most Popular</div>
+                    <h3 class="slide-in-top">Basic Health Checkup</h3>
+                    <div class="package-price">
+                        <span class="old-price">₹999</span>
+                        <span class="new-price shimmer">₹349</span>
+                    </div>
+                    <p class="test-count bounce">58 Tests Included</p>
+                    <ul class="package-features">
+                        <li class="slide-in-left delay-1"><i class="fas fa-check"></i> Complete Blood Count</li>
+                        <li class="slide-in-left delay-2"><i class="fas fa-check"></i> Liver Function Test</li>
+                        <li class="slide-in-left delay-3"><i class="fas fa-check"></i> Kidney Function Test</li>
+                        <li class="slide-in-left delay-4"><i class="fas fa-check"></i> Blood Sugar Test</li>
+                        <li class="slide-in-left delay-5"><i class="fas fa-check"></i> Lipid Profile</li>
+                    </ul>
+                    <button class="btn-secondary ripple">View Details</button>
+                    <button class="btn-primary ripple">Book Now</button>
+                </div>
+                <div class="package-card" data-aos="zoom-in" data-aos-delay="200">
+                    <h3 class="slide-in-top">Comprehensive Checkup</h3>
+                    <div class="package-price">
+                        <span class="old-price">₹1999</span>
+                        <span class="new-price shimmer">₹999</span>
+                    </div>
+                    <p class="test-count bounce">75 Tests Included</p>
+                    <ul class="package-features">
+                        <li class="slide-in-left delay-1"><i class="fas fa-check"></i> All Basic Tests</li>
+                        <li class="slide-in-left delay-2"><i class="fas fa-check"></i> Thyroid Profile</li>
+                        <li class="slide-in-left delay-3"><i class="fas fa-check"></i> Vitamin D & B12</li>
+                        <li class="slide-in-left delay-4"><i class="fas fa-check"></i> Iron Studies</li>
+                        <li class="slide-in-left delay-5"><i class="fas fa-check"></i> HbA1c</li>
+                    </ul>
+                    <button class="btn-secondary ripple">View Details</button>
+                    <button class="btn-primary ripple">Book Now</button>
+                </div>
+                <div class="package-card" data-aos="zoom-in" data-aos-delay="300">
+                    <h3 class="slide-in-top">Premium Health Checkup</h3>
+                    <div class="package-price">
+                        <span class="old-price">₹3999</span>
+                        <span class="new-price shimmer">₹1999</span>
+                    </div>
+                    <p class="test-count bounce">90 Tests Included</p>
+                    <ul class="package-features">
+                        <li class="slide-in-left delay-1"><i class="fas fa-check"></i> All Comprehensive Tests</li>
+                        <li class="slide-in-left delay-2"><i class="fas fa-check"></i> Tumor Markers</li>
+                        <li class="slide-in-left delay-3"><i class="fas fa-check"></i> Hormonal Assay</li>
+                        <li class="slide-in-left delay-4"><i class="fas fa-check"></i> Cardiac Risk Markers</li>
+                        <li class="slide-in-left delay-5"><i class="fas fa-check"></i> Arthritis Profile</li>
+                    </ul>
+                    <button class="btn-secondary ripple">View Details</button>
+                    <button class="btn-primary ripple">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="gradient-text">How It Works</h2>
+                <p class="slide-in-bottom">Simple 4-step process for your health checkup</p>
+            </div>
+            <div class="process-steps">
+                <div class="step" data-aos="fade-right">
+                    <div class="step-number pulse">1</div>
+                    <div class="step-content">
+                        <h3 class="slide-in-top">Book a Test</h3>
+                        <p class="slide-in-bottom delay-1">Choose your preferred health package and convenient time slot</p>
+                    </div>
+                </div>
+                <div class="step" data-aos="fade-right" data-aos-delay="100">
+                    <div class="step-number pulse">2</div>
+                    <div class="step-content">
+                        <h3 class="slide-in-top">Sample Collection</h3>
+                        <p class="slide-in-bottom delay-1">Our trained phlebotomist will visit your home to collect samples</p>
+                    </div>
+                </div>
+                <div class="step" data-aos="fade-right" data-aos-delay="200">
+                    <div class="step-number pulse">3</div>
+                    <div class="step-content">
+                        <h3 class="slide-in-top">Lab Testing</h3>
+                        <p class="slide-in-bottom delay-1">Samples are tested at our NABL-accredited labs with precision</p>
+                    </div>
+                </div>
+                <div class="step" data-aos="fade-right" data-aos-delay="300">
+                    <div class="step-number pulse">4</div>
+                    <div class="step-content">
+                        <h3 class="slide-in-top">Get Reports</h3>
+                        <p class="slide-in-bottom delay-1">Receive digital reports within 24-48 hours with doctor consultation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="gradient-text">Our Services</h2>
+                <p class="slide-in-bottom">Comprehensive healthcare solutions for you and your family</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="zoom-in">
+                    <div class="service-icon">
+                        <i class="fas fa-vial pulse"></i>
+                    </div>
+                    <h3 class="slide-in-top">Diagnostic Tests</h3>
+                    <p class="slide-in-bottom delay-1">Wide range of blood tests and health screenings with free home sample collection</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-x-ray pulse"></i>
+                    </div>
+                    <h3 class="slide-in-top">Imaging Services</h3>
+                    <p class="slide-in-bottom delay-1">Book radiology tests like X-ray, Ultrasound, ECG, MRI, CT Scan and more</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md pulse"></i>
+                    </div>
+                    <h3 class="slide-in-top">Doctor Consultation</h3>
+                    <p class="slide-in-bottom delay-1">Online consultation with specialists across 20+ specialties</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat pulse"></i>
+                    </div>
+                    <h3 class="slide-in-top">Health Tracking</h3>
+                    <p class="slide-in-bottom delay-1">Track your weight, BP, sugar levels and more with our health monitoring tools</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-hospital pulse"></i>
+                    </div>
+                    <h3 class="slide-in-top">Surgery Solutions</h3>
+                    <p class="slide-in-bottom delay-1">End-to-end surgery solutions from booking to post-operative care</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf pulse"></i>
+                    </div>
+                    <h3 class="slide-in-top">Ayurvedic Supplements</h3>
+                    <p class="slide-in-bottom delay-1">100% natural Ayurvedic supplements for immunity, nutrition, and wellness</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="gradient-text">What Our Customers Say</h2>
+                <p class="slide-in-bottom">Hear from our satisfied customers about their experience</p>
+            </div>
+            <div class="testimonial-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-slide">
+                    <div class="testimonial-content fade-in">
+                        <p>"The app and its features concerning lab tests are good, easy to use and understand. The reports are also good and the information shared can be easily understood by a layman. The comparison with previous reports is very helpful."</p>
+                    </div>
+                    <div class="testimonial-author slide-in-bottom">
+                        <div class="author-image">
+                            <img src="testimonial1.svg" alt="Rajinder Sharma" class="rotate-in">
+                        </div>
+                        <div class="author-info">
+                            <h4 class="slide-in-right">Rajinder Sharma</h4>
+                            <div class="rating">
+                                <i class="fas fa-star shimmer delay-1"></i>
+                                <i class="fas fa-star shimmer delay-2"></i>
+                                <i class="fas fa-star shimmer delay-3"></i>
+                                <i class="fas fa-star shimmer delay-4"></i>
+                                <i class="fas fa-star shimmer delay-5"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content fade-in">
+                        <p>"It was a fabulous experience. I must suggest this app to my circle. Thank you for everything from sample collecting to report consultation. Completely satisfied with the service."</p>
+                    </div>
+                    <div class="testimonial-author slide-in-bottom">
+                        <div class="author-image">
+                            <img src="testimonial2.svg" alt="Saroj Dahiya" class="rotate-in">
+                        </div>
+                        <div class="author-info">
+                            <h4 class="slide-in-right">Saroj Dahiya</h4>
+                            <div class="rating">
+                                <i class="fas fa-star shimmer delay-1"></i>
+                                <i class="fas fa-star shimmer delay-2"></i>
+                                <i class="fas fa-star shimmer delay-3"></i>
+                                <i class="fas fa-star shimmer delay-4"></i>
+                                <i class="fas fa-star shimmer delay-5"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content fade-in">
+                        <p>"This app provides one of the best comfort rates & packages customized for us. The blood sample was collected with utmost calmness and composure at my location. The best part is where they show us all the new sterilized kit."</p>
+                    </div>
+                    <div class="testimonial-author slide-in-bottom">
+                        <div class="author-image">
+                            <img src="testimonial3.svg" alt="Dhanashri Kulloli" class="rotate-in">
+                        </div>
+                        <div class="author-info">
+                            <h4 class="slide-in-right">Dhanashri Kulloli</h4>
+                            <div class="rating">
+                                <i class="fas fa-star shimmer delay-1"></i>
+                                <i class="fas fa-star shimmer delay-2"></i>
+                                <i class="fas fa-star shimmer delay-3"></i>
+                                <i class="fas fa-star shimmer delay-4"></i>
+                                <i class="fas fa-star shimmer delay-5"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls fade-in delay-3">
+                <button class="prev-btn ripple"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active pulse"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="next-btn ripple"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Features Section -->
+    <section class="app-features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="gradient-text">Unique App Features</h2>
+                <p class="slide-in-bottom">Download our app for a seamless health management experience</p>
+            </div>
+            <div class="features-container">
+                <div class="app-image" data-aos="fade-right">
+                    <img src="app-mockup.svg" alt="App Mockup" class="floating">
+                </div>
+                <div class="features-list" data-aos="fade-left">
+                    <div class="feature-item slide-in-left">
+                        <i class="fas fa-mobile-alt pulse"></i>
+                        <div>
+                            <h3 class="slide-in-right">Instant Booking</h3>
+                            <p class="slide-in-bottom delay-1">Book tests with complete order tracking</p>
+                        </div>
+                    </div>
+                    <div class="feature-item slide-in-left delay-1">
+                        <i class="fas fa-bell pulse"></i>
+                        <div>
+                            <h3 class="slide-in-right">Subscriptions & Alerts</h3>
+                            <p class="slide-in-bottom delay-1">Get reminders for your health checkups</p>
+                        </div>
+                    </div>
+                    <div class="feature-item slide-in-left delay-2">
+                        <i class="fas fa-file-medical-alt pulse"></i>
+                        <div>
+                            <h3 class="slide-in-right">Smart Reports</h3>
+                            <p class="slide-in-bottom delay-1">Detailed reports with personalized diet plan</p>
+                        </div>
+                    </div>
+                    <div class="feature-item slide-in-left delay-3">
+                        <i class="fas fa-weight pulse"></i>
+                        <div>
+                            <h3 class="slide-in-right">Health Tracker</h3>
+                            <p class="slide-in-bottom delay-1">Track your weight, BP, and sugar levels</p>
+                        </div>
+                    </div>
+                    <div class="feature-item slide-in-left delay-4">
+                        <i class="fas fa-walking pulse"></i>
+                        <div>
+                            <h3 class="slide-in-right">Step & Calorie Tracker</h3>
+                            <p class="slide-in-bottom delay-1">Monitor your daily activity and calories</p>
+                        </div>
+                    </div>
+                    <div class="feature-item slide-in-left delay-5">
+                        <i class="fas fa-users pulse"></i>
+                        <div>
+                            <h3 class="slide-in-right">Family Health Management</h3>
+                            <p class="slide-in-bottom delay-1">Manage health profiles for your entire family</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app-download" data-aos="fade-up">
+                <h3 class="gradient-text">Download Our App</h3>
+                <div class="download-buttons">
+                    <a href="#" class="download-btn ripple zoom-in">
+                        <i class="fab fa-google-play bounce"></i>
+                        <div>
+                            <span class="slide-in-top">GET IT ON</span>
+                            <span class="store-name slide-in-bottom">Google Play</span>
+                        </div>
+                    </a>
+                    <a href="#" class="download-btn ripple zoom-in delay-1">
+                        <i class="fab fa-apple bounce"></i>
+                        <div>
+                            <span class="slide-in-top">Download on the</span>
+                            <span class="store-name slide-in-bottom">App Store</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="gradient-text">About HealthCheck Pro</h2>
+                <p class="slide-in-bottom">Your trusted partner for preventive healthcare</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="about-image.svg" alt="About Us" class="floating">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3 class="slide-in-top">Why Choose HealthCheck Pro?</h3>
+                    <p class="fade-in">HealthCheck Pro is one of the leading names in at-home Diagnostic Tests in India, employing cutting-edge technology to deliver fast and accurate reports at affordable prices.</p>
+                    <p class="fade-in delay-1">Present in more than 250 cities across India, we are one of the country's fastest-growing healthcare providers with a focus on preventive health.</p>
+                    <ul class="about-features">
+                        <li class="slide-in-left delay-1"><i class="fas fa-check-circle shimmer"></i> Free home sample collection</li>
+                        <li class="slide-in-left delay-2"><i class="fas fa-check-circle shimmer"></i> NABL accredited labs</li>
+                        <li class="slide-in-left delay-3"><i class="fas fa-check-circle shimmer"></i> Reports within 24 hours</li>
+                        <li class="slide-in-left delay-4"><i class="fas fa-check-circle shimmer"></i> Free doctor consultation</li>
+                        <li class="slide-in-left delay-5"><i class="fas fa-check-circle shimmer"></i> Personalized diet plans</li>
+                        <li class="slide-in-left delay-6"><i class="fas fa-check-circle shimmer"></i> Affordable packages</li>
+                    </ul>
+                    <button class="btn-primary ripple">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="gradient-text">Contact Us</h2>
+                <p class="slide-in-bottom">We're here to help with any questions you may have</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item zoom-in">
+                        <i class="fas fa-map-marker-alt pulse"></i>
+                        <div>
+                            <h3 class="slide-in-top">Our Address</h3>
+                            <p class="slide-in-bottom delay-1">123 Health Avenue, Medical District, New Delhi - 110001</p>
+                        </div>
+                    </div>
+                    <div class="info-item zoom-in delay-1">
+                        <i class="fas fa-phone-alt pulse"></i>
+                        <div>
+                            <h3 class="slide-in-top">Call Us</h3>
+                            <p class="slide-in-bottom delay-1">+91 1800 123 4567</p>
+                            <p class="slide-in-bottom delay-2">+91 9876 543 210</p>
+                        </div>
+                    </div>
+                    <div class="info-item zoom-in delay-2">
+                        <i class="fas fa-envelope pulse"></i>
+                        <div>
+                            <h3 class="slide-in-top">Email Us</h3>
+                            <p class="slide-in-bottom delay-1">info@healthcheckpro.com</p>
+                            <p class="slide-in-bottom delay-2">support@healthcheckpro.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item zoom-in delay-3">
+                        <i class="fas fa-clock pulse"></i>
+                        <div>
+                            <h3 class="slide-in-top">Working Hours</h3>
+                            <p class="slide-in-bottom delay-1">Monday - Saturday: 8:00 AM - 8:00 PM</p>
+                            <p class="slide-in-bottom delay-2">Sunday: 9:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm" class="fade-in">
+                        <div class="form-group slide-in-top">
+                            <input type="text" id="name" placeholder="Your Name" required class="fade-in">
+                        </div>
+                        <div class="form-group slide-in-top delay-1">
+                            <input type="email" id="email" placeholder="Your Email" required class="fade-in">
+                        </div>
+                        <div class="form-group slide-in-top delay-2">
+                            <input type="tel" id="phone" placeholder="Your Phone" required class="fade-in">
+                        </div>
+                        <div class="form-group slide-in-top delay-3">
+                            <input type="text" id="subject" placeholder="Subject" required class="fade-in">
+                        </div>
+                        <div class="form-group slide-in-top delay-4">
+                            <textarea id="message" placeholder="Your Message" rows="5" required class="fade-in"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary ripple">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p>Stay updated with our latest health packages, offers, and health tips</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">
+                        <img src="logo.svg" alt="HealthPlus Logo" width="180">
+                    </a>
+                    <p>Your trusted partner for preventive healthcare. We bring accurate medical checkups and health test packages to your doorstep.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#packages">Health Packages</a></li>
+                            <li><a href="#services">Our Services</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Our Services</h3>
+                        <ul>
+                            <li><a href="#">Full Body Checkup</a></li>
+                            <li><a href="#">Blood Tests</a></li>
+                            <li><a href="#">Imaging Services</a></li>
+                            <li><a href="#">Doctor Consultation</a></li>
+                            <li><a href="#">Health Tracking</a></li>
+                            <li><a href="#">Ayurvedic Supplements</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 HealthCheck Pro. All Rights Reserved.</p>
+                <div class="payment-icons">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-google-pay"></i>
+                    <i class="fab fa-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Booking Modal -->
+    <div class="modal" id="bookingModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Book Your Health Checkup</h2>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="package">Select Package</label>
+                    <select id="package" required>
+                        <option value="">Choose a package</option>
+                        <option value="basic">Basic Health Checkup - ₹349</option>
+                        <option value="comprehensive">Comprehensive Checkup - ₹999</option>
+                        <option value="premium">Premium Health Checkup - ₹1999</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="bookingName">Full Name</label>
+                    <input type="text" id="bookingName" required>
+                </div>
+                <div class="form-group">
+                    <label for="bookingEmail">Email</label>
+                    <input type="email" id="bookingEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="bookingPhone">Phone</label>
+                    <input type="tel" id="bookingPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="bookingDate">Preferred Date</label>
+                    <input type="date" id="bookingDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="bookingTime">Preferred Time</label>
+                    <select id="bookingTime" required>
+                        <option value="">Select time</option>
+                        <option value="morning">Morning (6:00 AM - 10:00 AM)</option>
+                        <option value="afternoon">Afternoon (10:00 AM - 2:00 PM)</option>
+                        <option value="evening">Evening (2:00 PM - 6:00 PM)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="bookingAddress">Address</label>
+                    <textarea id="bookingAddress" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="login-tabs">
+                <button class="tab-btn active" data-tab="login">Login</button>
+                <button class="tab-btn" data-tab="register">Register</button>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane active" id="login">
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="loginEmail">Email</label>
+                            <input type="email" id="loginEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="loginPassword">Password</label>
+                            <input type="password" id="loginPassword" required>
+                        </div>
+                        <div class="form-group remember-forgot">
+                            <div>
+                                <input type="checkbox" id="rememberMe">
+                                <label for="rememberMe">Remember me</label>
+                            </div>
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                        <button type="submit" class="btn-primary">Login</button>
+                    </form>
+                    <div class="social-login">
+                        <p>Or login with</p>
+                        <div class="social-login-buttons">
+                            <button class="google-btn"><i class="fab fa-google"></i> Google</button>
+                            <button class="facebook-btn"><i class="fab fa-facebook-f"></i> Facebook</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="register">
+                    <form id="registerForm">
+                        <div class="form-group">
+                            <label for="registerName">Full Name</label>
+                            <input type="text" id="registerName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="registerEmail">Email</label>
+                            <input type="email" id="registerEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="registerPhone">Phone</label>
+                            <input type="tel" id="registerPhone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="registerPassword">Password</label>
+                            <input type="password" id="registerPassword" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" id="confirmPassword" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="termsAgree" required>
+                            <label for="termsAgree">I agree to the <a href="#">Terms & Conditions</a></label>
+                        </div>
+                        <button type="submit" class="btn-primary">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content success-content">
+            <span class="close-modal">&times;</span>
+            <div class="success-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h2>Success!</h2>
+            <p id="successMessage">Your request has been submitted successfully.</p>
+            <button class="btn-primary close-success">OK</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

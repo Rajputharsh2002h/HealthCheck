@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="avatar-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8f94fb" />
+      <stop offset="100%" stop-color="#4e54c8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#avatar-gradient)" />
+  
+  <!-- Face -->
+  <circle cx="50" cy="45" r="20" fill="#ffffff" />
+  
+  <!-- Eyes -->
+  <circle cx="43" cy="40" r="3" fill="#333333" />
+  <circle cx="57" cy="40" r="3" fill="#333333" />
+  
+  <!-- Smile -->
+  <path d="M40,52 Q50,60 60,52" stroke="#333333" stroke-width="2" fill="none" />
+  
+  <!-- Hair -->
+  <path d="M30,30 L30,25 L70,25 L70,30" fill="#333333" />
+  <rect x="30" y="25" width="40" height="10" fill="#333333" />
+  
+  <!-- Beard -->
+  <path d="M40,55 L40,65 L60,65 L60,55" fill="#333333" opacity="0.6" />
+  
+  <!-- Shoulders -->
+  <path d="M30,75 Q50,85 70,75" fill="#ffffff" />
+  
+  <!-- Initials -->
+  <text x="50" y="95" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">DK</text>
+</svg>

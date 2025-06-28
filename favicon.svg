@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="favicon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4e54c8" />
+      <stop offset="100%" stop-color="#8f94fb" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="32" height="32" rx="6" fill="white" />
+  
+  <!-- H letter stylized -->
+  <path d="M8,6 L8,26 L12,26 L12,18 L20,18 L20,26 L24,26 L24,6 L20,6 L20,14 L12,14 L12,6 Z" fill="url(#favicon-gradient)" />
+  
+  <!-- Plus symbol -->
+  <circle cx="24" cy="8" r="4" fill="#00c9a7" />
+  <path d="M24,6 L24,10 M22,8 L26,8" stroke="white" stroke-width="1.5" />
+</svg>

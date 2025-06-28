@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="nabl-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c9a7" />
+      <stop offset="100%" stop-color="#00c9a7" stop-opacity="0.7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background shape -->
+  <rect x="20" y="40" width="160" height="120" rx="10" fill="white" stroke="url(#nabl-gradient)" stroke-width="5" />
+  
+  <!-- NABL Text -->
+  <text x="100" y="85" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#00c9a7">NABL</text>
+  
+  <!-- Certification text -->
+  <text x="100" y="115" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">ACCREDITED</text>
+  <text x="100" y="135" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">ISO 15189:2012</text>
+  
+  <!-- Lab flask icon -->
+  <path d="M85,40 L85,30 L115,30 L115,40 L105,40 L115,60 L115,70 C115,80 105,90 100,90 C95,90 85,80 85,70 L85,60 L95,40 Z" fill="none" stroke="#00c9a7" stroke-width="2" />
+  <path d="M85,65 L115,65" stroke="#00c9a7" stroke-width="2" />
+  
+  <!-- Decorative elements -->
+  <circle cx="40" cy="60" r="5" fill="#00c9a7" opacity="0.5" />
+  <circle cx="160" cy="60" r="5" fill="#00c9a7" opacity="0.5" />
+  <circle cx="40" cy="140" r="5" fill="#00c9a7" opacity="0.5" />
+  <circle cx="160" cy="140" r="5" fill="#00c9a7" opacity="0.5" />
+</svg>
